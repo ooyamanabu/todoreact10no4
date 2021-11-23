@@ -1,4 +1,5 @@
 body {
-  font-family: sans-serif;
-  color: blue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(18, 50, 196);
+  max-width: fit-content;
 }
