@@ -6,10 +6,33 @@
       <meta charset="UTF-8" />
       <link rel="stylesheet" href="src/styles.css" />
       <script type="module" src="src/index.js"></script>
-      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
     </head>
     <body>
       <h1>ToDoリスト</h1>
+      <!-- css用 -->
+      <div class="todoapp">
+        <!-- js用 -->
+        <form id="js-form">
+          <input
+            id="js-fom-input"
+            class="new-todo"
+            type="text"
+            placeholder="What need to be done"
+            autocomplete="off"
+          />
+        </form>
+        <!-- todoアプリのリスト -->
+        <div id="js-todo-list" class="todo-list">
+          <!-- 更新されるToDoリスト -->
+        </div>
+
+        <footer class="footer">
+          <!-- ToDoアイテム数の表示 -->
+          <span id="js-todo-count">Todoアイテム数: 0</span>
+        </footer>
+      </div>
+
       <!-- todo<input type="text" id="title"> -->
       <!-- <button id="add"></button> -->
       <!-- <div id="view"></div> -->
